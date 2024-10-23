@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/AiBuBen/static/css/main.27d1e3c7.css",
+    "main.js": "/AiBuBen/static/js/main.a968788d.js",
+    "static/media/Basket.png": "/AiBuBen/static/media/Basket.10b1adc7ee2107333a1f.png",
+    "static/media/armnarus.png": "/AiBuBen/static/media/armnarus.fccceab5e6915e137ef5.png",
+    "static/media/rusnaarm.png": "/AiBuBen/static/media/rusnaarm.557e31908c9810e9058f.png",
+    "static/media/Tar.png": "/AiBuBen/static/media/Tar.8362ef5edb55b8efcb01.png",
+    "static/media/zaim.png": "/AiBuBen/static/media/zaim.cf4263e32ae7b19d6c50.png",
+    "static/media/iran.png": "/AiBuBen/static/media/iran.5520ad1cfe78326fe6ae.png",
+    "static/media/Home.png": "/AiBuBen/static/media/Home.11164a7b8817ac997ce0.png",
+    "index.html": "/AiBuBen/index.html",
+    "main.27d1e3c7.css.map": "/AiBuBen/static/css/main.27d1e3c7.css.map",
+    "main.a968788d.js.map": "/AiBuBen/static/js/main.a968788d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27d1e3c7.css",
+    "static/js/main.a968788d.js"
+  ]
+}
