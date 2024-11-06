@@ -1,13 +1,271 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: rgb(37, 37, 37);
+    font-family: "Vollkorn", serif;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin-bottom: 90px;
+    /* margin-bottom: 100%; */
+  }
+
+  .header-named {
+    background-color: rgb(63, 62, 62);
+    color: white;
+    text-align: center;
+  }
+
+  .footer-block {
+    background-color: rgb(27, 27, 27);
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+    height: 43px;
+  }
+
+  .footer-ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+
+  .img-footer {
+    margin-top: 12px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    transition: filter 0.3s ease;
+  }
+  
+  .img-footer:hover {
+   filter: brightness(40%) grayscale(50%);
+  }
+
+  .menu-block {
+    display: inherit;
+    width: 100%;
+    text-align: center;
+   }
+
+   .menu-vniz-block {
+    width: 150px;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .menu-button {
+    font-family: "Vollkorn", serif;
+    margin-top: 20px;
+    background-color: rgb(73, 73, 73);
+    border-radius: 7%;
+  } 
+  
+  .menu-img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .menu-text {
+    width: 146px;
+    font-family: "Vollkorn", serif;
+    font-size: 10px;
+    color: white;
+    padding-bottom: 6px;
+  }
+
+  .zaim-img {
+    width: 56px;
+    height: 35px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+   }
+
+   .wrap-rusarm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   .h1-rusarm {
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    width: 330px;
+    margin-top: 13px;
+   }
+
+   .input-rusarm-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+   }
+
+   .input-rusarm {
+    font-family: "Vollkorn", serif;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    outline: none;
+    text-align: center;
+    font-size: 18px;
+   }
+
+   .rusarm-text {
+    margin-top: 20px;
+    color: white;
+   }
+
+   .next-button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: rgb(97, 96, 96);
+    color: white;
+    border-color: rgb(97, 96, 96);
+    font-family: "Vollkorn", serif;
+   }
+
+   .info-button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 9px;
+    width: 33px;
+    height: 33px;
+    background-color: rgb(97, 96, 96);
+    border-color: rgb(97, 96, 96);
+    color: white;
+    border-radius: 50%;
+    font-family: "Vollkorn", serif;
+   }
+
+   .info-text-p {
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+   }
+
+   .grabar-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+  }
+
+  .otardr {
+    width: 30px;
+    height: 15px;
+    margin-top: 3px;
+    margin-right: 3px;
+  }
+
+  .otarhosk {
+    color: red;
+    margin-right: 5px;
+  }
+
+  .zvezda {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(1%) hue-rotate(94deg) brightness(106%) contrast(101%);
+  }
+
+  .favorit {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    filter: brightness(0) saturate(100%) invert(88%) sepia(36%) saturate(1472%) hue-rotate(357deg) brightness(108%) contrast(105%);
+  }
+
+  .rem {
+    width: 8px;
+    height: 8px;
+    filter: brightness(0) saturate(100%) invert(28%) sepia(88%) saturate(3700%) hue-rotate(359deg) brightness(97%) contrast(101%);
+  }
+
+  .punktir {
+    color: white;
+    height: 10px;
+  }
+
+  .haydr {
+    width: 30px;
+    height: 15px;
+    margin-left: 5px;
+    margin-top: 3px;
+    margin-right: 3px;
+  }
+
+  .hayhosk {
+    color: green;
+  }
+  
+  /* .alphapet {
+    margin-top: 15px;
+    width: 370px;
+    height: 250px;
+  }  Это если добавить png алфавит армянского алфавита*/
+
+  .basket-work {
+    display: flex;
+  }
+
+  .grabar-block-basket {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  .home-wrap {
+    text-align: center;
+  }
+
+  .home-h1 {
+    color: white;
+    margin-top: 15px;
+  }
+
+  .home-block-wrapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .home-block-course {
+    background-color: rgb(27, 27, 27);
+    width: 149px;
+    height: 126px;
+    border-radius: 5%;
+    margin-top: 30px;
+  }
+
+  .home-block-title {
+    font-size: 19px;
+    color: white;
+    padding-top: 5px;
+  }
+
+  .home-num {
+    color: white;
+    font-size: 24px;
+  }
+
+  .basket-p {
+    color: rgb(138, 138, 138);
+    font-size: 20px;
+    text-align: center;
+    width: 262px;
+    margin-top: 175px;
+  }
